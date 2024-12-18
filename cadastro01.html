@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+</head>
+<body>
+    
+    <header>
+        
+        <h1>Login</h1>
+        <nav>
+        <button>Mostrar</button>
+        <button>Ocultar</button>
+    </nav>
+
+    </header>
+    <div class="container">
+        <form>
+            <input type="text" placeholder="Nome Completo">
+            <input type="text" placeholder="E-mail">
+            <input type="password" placeholder="Senha">
+            <button class="cadastro">Cadastrar</button>
+        </form>
+        
+    </div>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+            
+        .container{
+            display: none;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            background-color: cyan;
+            height: 100vh;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 200px;
+            width: 100vw;
+            gap: 20px;
+        }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            border: none;
+            border-radius: 10px;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            top: -120px;
+        }
+        input{
+            height: 75px;
+            width: 330px;
+            padding: 5px;
+            outline: none;
+        }
+        .cadastro{
+         position: relative;
+         margin-top: 15px;
+        }
+    </style>
+    <script>
+        
+        var cadastro = document.querySelector(".cadastro")
+        var ocultar = document.querySelector(".cadastro")
+        var cadastro = document.querySelector(".cadastro")
+
+    </script>
+</body>
+</html>
